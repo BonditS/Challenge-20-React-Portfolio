@@ -1,4 +1,9 @@
-body {
-    background: black;
-    color: white;
+/* every element on the web page should have this styling 
+this make the our components take the entire space of the page*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: 0;
 }
