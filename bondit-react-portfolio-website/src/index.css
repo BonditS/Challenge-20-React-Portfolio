@@ -5,5 +5,18 @@ this make the our components take the entire space of the page*/
     padding: 0;
     border: 0;
     outline: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* CSS Variable that wil be using through out*/
+
+:root {
+    --color-bg: #134e5e;
+    --color-bg-gradient: #71b280;
+    --color-primary: rgba(22,27,25,0.95) 40%;
+    --color-primary-gradient: rgba(119,126,122,0.95) 60%;
+    --color-white: #e9e9e9;
+    --color-light: #d4fbec;
 }
