@@ -6,6 +6,7 @@ import Skill from './components/skill/Skill'
 import Portfolio from './components/portfolio/Portfolio'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import FloatingNav from './components/floatingNav/FloatingNav'
 
 
 const App = () => {
@@ -19,7 +20,7 @@ const App = () => {
       <Portfolio />
       <Contact />
       <Footer />
-
+      <FloatingNav />
     </>
   )
 }
