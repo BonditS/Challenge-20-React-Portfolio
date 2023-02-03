@@ -1,0 +1,35 @@
+nav {
+    width: 100vw;
+    height: 5rem;
+    display: grid;
+    place-items: center;
+    background: var(--color-primary);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    box-shadow: 0 1rem 1.5rem rgba(27, 54, 56, 0.2);
+    transition: all 500ms ease;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 2.5rem;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.nav-list {
+    display: flex;
+    gap: 3rem;
+}
+
+.nav-list a {
+    color: white;
+}
+

@@ -12,7 +12,6 @@ import FloatingNav from './components/floatingNav/FloatingNav'
 const App = () => {
   return (
     <>
-
       <Header />
       <Nav />
       <About />
