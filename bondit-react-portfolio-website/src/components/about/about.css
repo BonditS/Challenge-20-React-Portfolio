@@ -1,0 +1,13 @@
+.about-container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content p {
+    margin-bottom: 0.8rem;
+}
+
+
