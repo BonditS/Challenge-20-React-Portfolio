@@ -4,7 +4,7 @@ import data from './data'
 
 const Skill = () => {
   return (
-    <div id='skills'>
+    <div>
       <h2>My Skills</h2>
       <p>This is the list of technology that I've learned so far!</p>
       <div className='container skill-container'>
